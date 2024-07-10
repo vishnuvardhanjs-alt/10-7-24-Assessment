@@ -1,0 +1,112 @@
+body {
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: aliceblue;
+  margin: 0;
+  padding: 0;
+}
+
+.home {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* text-align: center; */
+  font-size: 40px;
+  gap: 20px;
+}
+
+.main-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.subs-header {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.subs-top-text {
+  padding: 20px;
+}
+
+.grey-container {
+  height: 100vh;
+  width: 90vw;
+  background-color: #f1f1f1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.subs-form {
+  width: 100%;
+  background-color: #fff;
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.subs-input {
+  height: 30px;
+}
+
+.subs-button {
+  width: 98%;
+  margin-top: 20px;
+  height: 30px;
+  border: none;
+  background-color: #4ca772;
+  color: #fff;
+}
+
+.query-top-text {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 5vh;
+}
+
+.query-main {
+  width: 90%;
+  height: 100%;
+}
+
+hr {
+  margin-bottom: 10vh;
+}
+
+.todo-card {
+  background-color: #162840;
+  height: 60vh;
+  width: 25vw;
+  color: white;
+  font-weight: lighter;
+}
+
+.todo-check {
+  display: flex;
+  font-size: 1.5rem;
+}
+
+.todo-cont {
+  display: flex;
+  flex-direction: column;
+  height: 80%;
+  padding: 20px;
+}
+
+h4 {
+  background-color: #274255;
+  position: fixed;
+  transform: translate(25px, -25px);
+  color: white;
+}
+
